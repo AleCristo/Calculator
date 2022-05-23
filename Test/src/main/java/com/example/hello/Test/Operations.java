@@ -2,22 +2,25 @@ package com.example.hello.Test;
 
 public class Operations {
 	
-	public Float add(Float val1, Float val2) {
-		return val1 + val2;
+	
+	public Operations() {
 	}
 	
-	public Float sub(Float val1, Float val2) {
-		return val1 - val2;
+	public int sum(int num1, int num2) {
+		return num1 + num2;
 	}
-	
-	public Float mul(Float val1, Float val2) {
-		return val1 * val2;
+    	
+	public int sub(int num1, int num2) {
+		return num1 - num2;
 	}
-	
-	public Float div(Float val1, Float val2) throws Exception {
-		if(val2 == 0)
-			throw new Exception("il denominatore deve essere diverso da 0");
-		return val1 / val2;
+    	
+	public int mol(int num1, int num2) {
+		return num1 * num2;
 	}
-	
+    		
+	public int div(int num1, int num2) {
+		return num1 / num2;
+	}
+    	
+    	
 }
